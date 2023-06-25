@@ -1,0 +1,76 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+
+:root{
+    --small-font: 13px;
+    --big-font:80px;
+    --medium-font:40px;
+    --icon-size: 20px;
+
+    --white-color:white;
+    --white-grey:rgb(248, 248, 248);
+    --black-color:black;
+    --oxblood-color: #8f0909;
+}
+
+
+@media screen and (max-width: 767px) {
+    /* ================= vission ============= */
+    .vission{
+        padding: 100px 6%;
+        display: grid;
+        grid-template-columns: 1fr; 
+        grid-gap: 30px;
+    }
+
+
+    /* =================== history =============== */
+    .history_section{
+        padding: 100px 6%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+        align-items: center;
+    }
+
+    .history_div1 p{
+        font-size: 14px;
+        line-height: 20px;
+        text-align: justify;
+    }
+    
+}
+
+
+@media screen and (width: 768px) {
+       /* ================= vission ============= */
+       .vission{
+        padding: 100px 6%;
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        grid-gap: 30px;
+    }
+
+
+    /* =================== history =============== */
+    .history_section{
+        padding: 100px 6%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+        align-items: center;
+    }
+
+    .history_div1 p{
+        font-size: 14px;
+        line-height: 20px;
+        text-align: justify;
+    }
+    
+}
